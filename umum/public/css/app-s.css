@@ -1,0 +1,19 @@
+table.ui.celled.table{
+    text-align: center;
+    border: 1px solid black;
+    width: 50%;
+    height: 50px;
+}
+
+table>tbody>tr>td:first-child {
+    background-color: #f8f8f8;
+    border-color: black !important;
+}
+
+table>tbody>tr>td:last-child {
+    border-left-color: black !important;
+}
+
+.red-border-s {
+    border-color: #ff0b0b !important;
+}
